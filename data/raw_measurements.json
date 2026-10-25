@@ -1,0 +1,339 @@
+{
+  "timestamp_utc": "2026-10-25 16:58:15 UTC",
+  "solana_network": "mainnet-beta",
+  "sample_size_blocks": 3,
+  "average_spearman_rho": 1.0,
+  "average_priority_fee_ratio": 0.0,
+  "ordering_conclusion": "STRICT_PRIORITY_FEE_ORDERING",
+  "validators_analyzed": [
+    {
+      "pubkey": "CyxpavCBjZmSsyHcu83kVRZcLi8x2vfPigodN5mat45T",
+      "version": "4.3.2",
+      "gossip": "69.162.93.143:8001"
+    },
+    {
+      "pubkey": "MCFmmmXdzTKjBEoMggi8JGFJmd856uYSowuH2sCU5kx",
+      "version": "4.3.2",
+      "gossip": "151.123.174.142:9000"
+    },
+    {
+      "pubkey": "uEhHSnCXvWgtgvVaYscPHjG13G3peMmngQQ2ghC54i3",
+      "version": "4.3.0",
+      "gossip": "45.76.15.94:8001"
+    },
+    {
+      "pubkey": "7d7x84jiVtqpz9NK88ocLmu4L15uhdnzMEDmo8Py8oVi",
+      "version": "4.3.0",
+      "gossip": "198.17.118.10:8000"
+    },
+    {
+      "pubkey": "Gt1326pRRsStCSiYC7saiYxftDWKQRvcf22qZQF6KhzC",
+      "version": "2.3.8",
+      "gossip": "198.13.133.37:8000"
+    },
+    {
+      "pubkey": "35cFzi5QNohZhuX96GsDekaFEBofuKKjWEF4VsrDhR2j",
+      "version": "2.3.8",
+      "gossip": "45.250.253.81:8000"
+    }
+  ],
+  "blocks": [
+    {
+      "slot": 461333384,
+      "blockhash": "ADusdLW9Tejke6nTXy4kSzcqRr1u1mNa9GBfhJ3QmxeB",
+      "parent_slot": 461333383,
+      "total_transactions": 613,
+      "priority_fee_tx_count": 0,
+      "priority_fee_ratio": 0.0,
+      "spearman_fee_position_rho": 1.0,
+      "median_unit_price": 0,
+      "sample_signatures": [
+        "3owMayZ13yp4sCtiyR6VdzFUg3xLLwNprsfDfaVkQ6Bj8yLB2Qa3YgFVNiTLsWoQRX78N5sDVKtssxRNMDc1FMYe",
+        "3rnzNvuP3d1bjJxMA6X1PCzGMtggmBM1m6oziXtXAp9LY2AUBQVEaomQUvPvqEjuaeeaJH8BmpJnVn7xebj3Xm8m",
+        "2dpkU6MntSXyJUTKGJ1wac5jcrNzdkxvxqww3zQ2VTEW1bxWzxXxD9Jg5vN2GvBXECdK9K3NKqSxdKcbsonCswZN",
+        "37Nh2YxLPA9P853XjN3SDyirkusfats2vUWwP86ENoWvYoXZBnsnYVxu48EpaUpN8bojBBMYee8DGXzjycp4vLyJ",
+        "4ufQTAG6ym2PA4zTHRKREz4gYf9vVYqModCzbnLCKy1rY9wVS8Kj1VSH44Sd68CbmkJGiTNGVKCj2dRTmmwPXWKH"
+      ],
+      "metrics_sample": [
+        {
+          "index_in_block": 0,
+          "signature": "3owMayZ13yp4sCtiyR6VdzFUg3xLLwNprsfDfaVkQ6Bj8yLB2Qa3YgFVNiTLsWoQRX78N5sDVKtssxRNMDc1FMYe",
+          "fee_lamports": 5000,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 58969
+        },
+        {
+          "index_in_block": 1,
+          "signature": "3rnzNvuP3d1bjJxMA6X1PCzGMtggmBM1m6oziXtXAp9LY2AUBQVEaomQUvPvqEjuaeeaJH8BmpJnVn7xebj3Xm8m",
+          "fee_lamports": 5126,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 2363
+        },
+        {
+          "index_in_block": 2,
+          "signature": "2dpkU6MntSXyJUTKGJ1wac5jcrNzdkxvxqww3zQ2VTEW1bxWzxXxD9Jg5vN2GvBXECdK9K3NKqSxdKcbsonCswZN",
+          "fee_lamports": 5324,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 24
+        },
+        {
+          "index_in_block": 3,
+          "signature": "37Nh2YxLPA9P853XjN3SDyirkusfats2vUWwP86ENoWvYoXZBnsnYVxu48EpaUpN8bojBBMYee8DGXzjycp4vLyJ",
+          "fee_lamports": 6229,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 1118
+        },
+        {
+          "index_in_block": 4,
+          "signature": "4ufQTAG6ym2PA4zTHRKREz4gYf9vVYqModCzbnLCKy1rY9wVS8Kj1VSH44Sd68CbmkJGiTNGVKCj2dRTmmwPXWKH",
+          "fee_lamports": 5638,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 313
+        },
+        {
+          "index_in_block": 5,
+          "signature": "Hg7gHPHg7toUZoVicqKcFJ4pLpKE5jhJq2e43ALvvmTo9dbPMaAEC5XCDbS5pHNyjcjRcZ22CrBBKfDdA9eRGWH",
+          "fee_lamports": 5338,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 313
+        },
+        {
+          "index_in_block": 6,
+          "signature": "3KZ1qzRiBdZ2C3iBahYTUt7pn9VqnpHBmHh48FAL3SusFEfWyJpoQCuJGgyty9GuRA9uvNLnP98NC6rqPjUj4aDu",
+          "fee_lamports": 5732,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 526
+        },
+        {
+          "index_in_block": 7,
+          "signature": "2gpd82yYYnwyU8SeUkDpV6pWQZsBBKstiLipx9egekqckTzesdYGXrb9Xnq3VZx12ozi83FnmLG5pYNd4bAMXhXC",
+          "fee_lamports": 5338,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 313
+        },
+        {
+          "index_in_block": 8,
+          "signature": "589vcB6vNxCV8GKFCsCJPMRUCtu7hpBhRFw5F9iYJLKbYY54jUNEa6NyJWVTDoUqe5Hmxawn1nnzbGGPR34Ewbai",
+          "fee_lamports": 5338,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 313
+        },
+        {
+          "index_in_block": 9,
+          "signature": "2pCx5xtL6fntACXvz241aZH9kFv2AeQU5JXfBAJDGN8NhYBUjAW9GCs7u26NW6zrST7sX7vFhLcr1CkdHZtquK3C",
+          "fee_lamports": 5319,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 313
+        }
+      ]
+    },
+    {
+      "slot": 461333380,
+      "blockhash": "BNHYn8odxbg3EqDjBUvpfup5SuHSW5kW9AdAJsJBHGMp",
+      "parent_slot": 461333379,
+      "total_transactions": 575,
+      "priority_fee_tx_count": 0,
+      "priority_fee_ratio": 0.0,
+      "spearman_fee_position_rho": 1.0,
+      "median_unit_price": 0,
+      "sample_signatures": [
+        "2ouCRKEaFugZ1oeJuoNmdifssFJDZRkRBN8VBewugi4tPDbs4BezdN7N7jEKmjLp3F6FABegYX9HPzsdDw6mCkgE",
+        "4fVnRUQg5YLmjJhxtot4ABw7H8ZFfpAud7cpJzuCwzNQVpsKKAzc2fWQWiRz3hBNXnrSpjLEvwJgWqYRUxXFqcWc",
+        "3kw5JcCN4T5n3aFH7gk2yFaSpQgUf33hzRQGVTHK671HVyivHte1fC3zieshRGGAcQcEna92JGpwoPdGPKRBEMJx",
+        "REpq7Lq9bb1u4mxCRxXh11hBq1Lvq19tHeJcdDWyzh8kHGmut7jcTiT67CrtBX6t48Cqx2mEr8TocQZ9QMiXRmk",
+        "324DjUSe1WVaMoYe13WgMEHcDkYp9jtSHmPsLkrMzpwdkL9UXZCTxVd4uCSPk9eaNgKs44zVyKMnKWcCY585TfoU"
+      ],
+      "metrics_sample": [
+        {
+          "index_in_block": 0,
+          "signature": "2ouCRKEaFugZ1oeJuoNmdifssFJDZRkRBN8VBewugi4tPDbs4BezdN7N7jEKmjLp3F6FABegYX9HPzsdDw6mCkgE",
+          "fee_lamports": 5000,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 58969
+        },
+        {
+          "index_in_block": 1,
+          "signature": "4fVnRUQg5YLmjJhxtot4ABw7H8ZFfpAud7cpJzuCwzNQVpsKKAzc2fWQWiRz3hBNXnrSpjLEvwJgWqYRUxXFqcWc",
+          "fee_lamports": 5319,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 319
+        },
+        {
+          "index_in_block": 2,
+          "signature": "3kw5JcCN4T5n3aFH7gk2yFaSpQgUf33hzRQGVTHK671HVyivHte1fC3zieshRGGAcQcEna92JGpwoPdGPKRBEMJx",
+          "fee_lamports": 5319,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 319
+        },
+        {
+          "index_in_block": 3,
+          "signature": "REpq7Lq9bb1u4mxCRxXh11hBq1Lvq19tHeJcdDWyzh8kHGmut7jcTiT67CrtBX6t48Cqx2mEr8TocQZ9QMiXRmk",
+          "fee_lamports": 5324,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 24
+        },
+        {
+          "index_in_block": 4,
+          "signature": "324DjUSe1WVaMoYe13WgMEHcDkYp9jtSHmPsLkrMzpwdkL9UXZCTxVd4uCSPk9eaNgKs44zVyKMnKWcCY585TfoU",
+          "fee_lamports": 6229,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 1118
+        },
+        {
+          "index_in_block": 5,
+          "signature": "5UCg5qDvhD712q9MzkpcXG34Gf2HYKs6butn4g8yGfiCduxi8dKBbwZqQ6TomTGeMZrySrDo7KB7kjtqE8qQQuVV",
+          "fee_lamports": 5415,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 410
+        },
+        {
+          "index_in_block": 6,
+          "signature": "4iPsCNUisG4pLMahq3UFFR61tygxMgYAgh7n8tgW5QseNxuUsrwMukhLs6KjTmejKntFJVYsAjoRsT3BGppNx2Qf",
+          "fee_lamports": 5732,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 480
+        },
+        {
+          "index_in_block": 7,
+          "signature": "4Sa9jKZkAKH8Zyk1XW3AvayiQstKDVa7TyjGXs1XCq8u37dhp1ma1X5zSxnKyACXx2RYHcr6H4CPfGgZtcMJAJ2t",
+          "fee_lamports": 5540,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 528
+        },
+        {
+          "index_in_block": 8,
+          "signature": "3eRAuc5NSCrCZThyTaxBXjphLCVJ9DxD8fUCYrm9E8AmAsJDDySsfKHGQzr4pzR8FZWNyNv7YTH9CKQMNWrRmPrQ",
+          "fee_lamports": 5126,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 2363
+        },
+        {
+          "index_in_block": 9,
+          "signature": "xdWegokm8b5MMUdT77YH4BpHdFisUKNnLwi3XNYUpHvtLbxm37wS7XP3ZG87TBfNEv7f3GJLvvd3ZKxfCyNARUK",
+          "fee_lamports": 5324,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 24
+        }
+      ]
+    },
+    {
+      "slot": 461333376,
+      "blockhash": "DzUMd2BFTW7CLCqqLLCPe2cnSX7Xfk2e9xvrYWi5Z72r",
+      "parent_slot": 461333375,
+      "total_transactions": 403,
+      "priority_fee_tx_count": 0,
+      "priority_fee_ratio": 0.0,
+      "spearman_fee_position_rho": 1.0,
+      "median_unit_price": 0,
+      "sample_signatures": [
+        "3S67EgzJbtG8bAW2vdtD8JkAUcfDPK8QLk22QJbPcM2dkGavLjcsgrmjPBD84GdbXahBFrSDundrEYK87S4N2xWW",
+        "2CVmsaWrT1u6MCJuKSBJetvc4qSayiAPUkiTsWd2YGheAtuiLoHzrHMToBxBdvhk3788Ds7aDerKLhM1jzr3wgh8",
+        "SqE5K3r7SSYy7QcpiBNqHndkxeLCe8BFrh8fwfa6Eh3SmEKXyqnApysR8XfL3x9UGwfMvE1kgSvq7GUws79eQhz",
+        "3EmofUUqXNko7hjKr2GJnNJVm5EUHMb86sKWArGFJnkVh6am12WGyeDMybuE6yRpYsPyXoCtyoeKXDTXWkVhxhxQ",
+        "3iGuZjHmHiGjTfsb5ZSaKh48ui8BjaTYfuEyhvJaUWDM6PT6eLKcrdYy26roeV95qMpSewSvWw6rxrpzrTQ5xkkE"
+      ],
+      "metrics_sample": [
+        {
+          "index_in_block": 0,
+          "signature": "3S67EgzJbtG8bAW2vdtD8JkAUcfDPK8QLk22QJbPcM2dkGavLjcsgrmjPBD84GdbXahBFrSDundrEYK87S4N2xWW",
+          "fee_lamports": 5000,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 59135
+        },
+        {
+          "index_in_block": 1,
+          "signature": "2CVmsaWrT1u6MCJuKSBJetvc4qSayiAPUkiTsWd2YGheAtuiLoHzrHMToBxBdvhk3788Ds7aDerKLhM1jzr3wgh8",
+          "fee_lamports": 5019,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 38
+        },
+        {
+          "index_in_block": 2,
+          "signature": "SqE5K3r7SSYy7QcpiBNqHndkxeLCe8BFrh8fwfa6Eh3SmEKXyqnApysR8XfL3x9UGwfMvE1kgSvq7GUws79eQhz",
+          "fee_lamports": 5250,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 486
+        },
+        {
+          "index_in_block": 3,
+          "signature": "3EmofUUqXNko7hjKr2GJnNJVm5EUHMb86sKWArGFJnkVh6am12WGyeDMybuE6yRpYsPyXoCtyoeKXDTXWkVhxhxQ",
+          "fee_lamports": 5000,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 320
+        },
+        {
+          "index_in_block": 4,
+          "signature": "3iGuZjHmHiGjTfsb5ZSaKh48ui8BjaTYfuEyhvJaUWDM6PT6eLKcrdYy26roeV95qMpSewSvWw6rxrpzrTQ5xkkE",
+          "fee_lamports": 5115,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 115
+        },
+        {
+          "index_in_block": 5,
+          "signature": "522V4cYjpzBWrAdGagGrhfX6P4m2nSV6vF9bEDdQnRupY4bZATLmxSf2fPYsWkUPMkKgpGejdQrpauRZKxQkWDv6",
+          "fee_lamports": 5630,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 571
+        },
+        {
+          "index_in_block": 6,
+          "signature": "5j6aUcRUxSyYomDki4VKJHGW8tEcAeULp1vikZQ7o3WJSukD8ky5TKNu74PVu7NRjw9S1pZyESY93aKZUHR1aTD3",
+          "fee_lamports": 5001,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 507
+        },
+        {
+          "index_in_block": 7,
+          "signature": "uErTFwbV1DeiF5oSt8EREXQYTPCyotbUCs18rkbcZYtC1XasKtSu2uTcLEaSFbCF4y4iVKfkGHisNte51BvooDL",
+          "fee_lamports": 5001,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 507
+        },
+        {
+          "index_in_block": 8,
+          "signature": "4XAAVSkLULCAJL42oKXJV6yVWusKiSzSsTzPsqMN7mZ1c5YhSdgCDT1uR9y3YzmNXfWXj678eJ4xpWWBqDbV5LpV",
+          "fee_lamports": 5000,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 115
+        },
+        {
+          "index_in_block": 9,
+          "signature": "5T59zQSTKcH9oBDDThFzHYv4Hrh7SRearpTnCVLrdhCtETSpmFz74BWprybsfn1t1StkMZHNikrMAULgcHpSp9YZ",
+          "fee_lamports": 5000,
+          "unit_price_micro_lamports": 0,
+          "unit_limit": 200000,
+          "compute_units_consumed": 115
+        }
+      ]
+    }
+  ]
+}

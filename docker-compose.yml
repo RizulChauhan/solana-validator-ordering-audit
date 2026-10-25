@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  solana-validator-auditor:
+    build: .
+    container_name: solana_validator_auditor
+    environment:
+      - SOLANA_RPC_URL=${SOLANA_RPC_URL:-https://api.mainnet-beta.solana.com}
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    command: ["--dry-run", "--samples", "6"]
