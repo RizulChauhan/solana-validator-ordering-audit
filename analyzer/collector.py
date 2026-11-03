@@ -14,7 +14,7 @@ import math
 import urllib.request
 from typing import Dict, List, Any, Optional
 
-DEFAULT_RPC = os.getenv("SOLANA_RPC_URL", "https://api.mainnet-beta.solana.com")
+DEFAULT_RPC = os.getenv("SOLANA_RPC_URL", "https://solana.publicnode.com")
 COMPUTE_BUDGET_PROGRAM_ID = "ComputeBudget111111111111111111111111111111"
 
 def rpc_call(method: str, params: list, rpc_url: str = DEFAULT_RPC) -> Any:
@@ -28,7 +28,7 @@ def rpc_call(method: str, params: list, rpc_url: str = DEFAULT_RPC) -> Any:
     req = urllib.request.Request(
         rpc_url,
         data=payload,
-        headers={"Content-Type": "application/json", "User-Agent": "SolanaBlockAuditor/1.0"}
+        headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
     )
     with urllib.request.urlopen(req, timeout=20) as resp:
         res = json.loads(resp.read().decode("utf-8"))
