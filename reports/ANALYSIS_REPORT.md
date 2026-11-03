@@ -1,7 +1,7 @@
 # 🔬 Inside the Block: How Solana Validators Order Transactions
 ### Empirical Measurement of Mainnet Block Assembly Mechanics
 **Researcher:** Rizul Chauhan ([@RizulChauhan](https://github.com/RizulChauhan))  
-**Date of Measurement:** 2026-10-25 16:58:15 UTC  
+**Date of Measurement:** 2026-11-03 13:16:57 UTC  
 **Network:** Solana Mainnet-Beta  
 **Bounty Track:** Superteam Earn — Inside the Block (2,500 USDC)
 
@@ -11,7 +11,7 @@
 
 | Dimension | Measured Value | Architectural Meaning |
 | :--- | :--- | :--- |
-| **Analyzed Blocks** | `3 Mainnet Blocks` | Sampled across active validator leader slots |
+| **Analyzed Blocks** | `6 Mainnet Blocks` | Sampled across active validator leader slots |
 | **Analyzed Validators** | `6 Nodes` | Spans `3` distinct client software versions |
 | **Average Priority Fee Ratio** | `0.0%` | Percentage of transactions including compute unit price |
 | **Mean Spearman Rank (ρ)** | `1.0` | Correlation between priority fee and block entry index |
@@ -33,12 +33,12 @@ Measurements evaluated nodes running distinct client versions on Mainnet:
 
 | # | Validator Identity | Client Software Version | Role in Sample |
 | :--- | :--- | :--- | :--- |
-| 1 | `CyxpavCBjZmS...N5mat45T` | **v4.3.2** | Leader Slot Measurement |
-| 2 | `MCFmmmXdzTKj...H2sCU5kx` | **v4.3.2** | Leader Slot Measurement |
-| 3 | `uEhHSnCXvWgt...2ghC54i3` | **v4.3.0** | Leader Slot Measurement |
-| 4 | `7d7x84jiVtqp...o8Py8oVi` | **v4.3.0** | Leader Slot Measurement |
-| 5 | `Gt1326pRRsSt...ZQF6KhzC` | **v2.3.8** | Leader Slot Measurement |
-| 6 | `35cFzi5QNohZ...VsrDhR2j` | **v2.3.8** | Leader Slot Measurement |
+| 1 | `12nAVtRrmxtv...zidHYJHH` | **v4.3.2** | Leader Slot Measurement |
+| 2 | `1332t468rRA9...rtfwPZm1` | **v4.3.2** | Leader Slot Measurement |
+| 3 | `12T8Qk49kQRx...1on7pmdr` | **v4.4.0** | Leader Slot Measurement |
+| 4 | `1KXvrkPXwkGF...oiK9bsK3` | **v4.4.0** | Leader Slot Measurement |
+| 5 | `12oUSEiJBUQo...yM4vgtMD` | **v4.3.0** | Leader Slot Measurement |
+| 6 | `24PNhTaNtomH...WrKDbR5p` | **v4.3.0** | Leader Slot Measurement |
 
 ---
 
@@ -48,9 +48,12 @@ All slot numbers and transaction signatures below are verified against Solana Ma
 
 | Slot Number | Total Txs | Priority Fee Txs | Fee Ratio | Spearman Rank (ρ) | Sample Signature |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [461333384](https://solscan.io/block/461333384) | 613 | 0 | 0.0% | `1.0` | `3owMayZ13yp4sCti...` |
-| [461333380](https://solscan.io/block/461333380) | 575 | 0 | 0.0% | `1.0` | `2ouCRKEaFugZ1oeJ...` |
-| [461333376](https://solscan.io/block/461333376) | 403 | 0 | 0.0% | `1.0` | `3S67EgzJbtG8bAW2...` |
+| [464912369](https://solscan.io/block/464912369) | 271 | 0 | 0.0% | `1.0` | `2S1iqvJHxnEc11oT...` |
+| [464912365](https://solscan.io/block/464912365) | 232 | 0 | 0.0% | `1.0` | `2Lp2wLtkNTUwoZ2b...` |
+| [464912361](https://solscan.io/block/464912361) | 224 | 0 | 0.0% | `1.0` | `32KbsJMAwnYz7Aev...` |
+| [464912357](https://solscan.io/block/464912357) | 177 | 0 | 0.0% | `1.0` | `XfagmN8ic7BTU5YW...` |
+| [464912353](https://solscan.io/block/464912353) | 210 | 0 | 0.0% | `1.0` | `29HBnRJngSG1E8ma...` |
+| [464912349](https://solscan.io/block/464912349) | 248 | 0 | 0.0% | `1.0` | `28Qzmj5bL5TKzB5m...` |
 
 ---
 

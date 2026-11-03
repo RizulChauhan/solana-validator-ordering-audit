@@ -123,7 +123,7 @@ def main():
     parser = argparse.ArgumentParser(description="Solana Validator Transaction Ordering Measurement Engine")
     parser.add_argument("--dry-run", action="store_true", default=True, help="Run non-destructive audit using RPC read calls (default: True)")
     parser.add_argument("--samples", type=int, default=6, help="Number of blocks to sample (default: 6)")
-    parser.add_argument("--rpc", type=str, default="https://api.mainnet-beta.solana.com", help="Solana Mainnet RPC URL")
+    parser.add_argument("--rpc", type=str, default="https://solana.publicnode.com", help="Solana Mainnet RPC URL")
     parser.add_argument("--output-json", type=str, default="data/raw_measurements.json", help="Path for JSON output")
     parser.add_argument("--output-report", type=str, default="reports/ANALYSIS_REPORT.md", help="Path for Markdown report")
     
